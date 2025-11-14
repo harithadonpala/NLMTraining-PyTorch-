@@ -5,7 +5,7 @@ It looks like the code file you uploaded is in Jupyter notebook format (Untitled
 ## Dataset
 The dataset is a pre-processed text corpus, split into training and validation sets. Preprocessing includes tokenization and padding, ensuring consistent sequence lengths.
 
-## 3. Setup and Installation
+## 1. Setup and Installation
 
  ### Clone the repository:
 
@@ -19,7 +19,7 @@ The dataset is a pre-processed text corpus, split into training and validation s
   bash
   pip install -r requirements.txt
 
-## 4. Running the Model
+## 2. Running the Model
 
  ### Training the Model:
   Run the following command to train the model:
@@ -39,14 +39,14 @@ The dataset is a pre-processed text corpus, split into training and validation s
   bash
   python inference.py --input "Once upon a time"
   
-## 5. Model Evaluation
+## 3. Model Evaluation
 
   ### Loss Curves: 
     Training and validation losses are plotted. The model should ideally show a drop in both training and validation losses, with a minimal gap between them.
   ### Perplexity:
     This is the key metric for evaluating the model’s performance. Lower perplexity indicates better predictive accuracy.
 
-## 6. Results
+## 4. Results
 
   ### Best Model Configuration: 
     The best model was chosen based on validation perplexity and the training-validation loss trends.
